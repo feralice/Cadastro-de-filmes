@@ -4,7 +4,6 @@
 #include "Cabecalho.h"
 
 
-//tivemos que colocar essa função para limpar o buffer, pois não tava querendo ler as strings de jeito nenhum
 void flush_in() { 
     int ch;
     while( (ch = fgetc(stdin)) != EOF && ch != '\n' ){} 
