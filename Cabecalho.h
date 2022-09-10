@@ -1,5 +1,4 @@
 //TAD -- Cabecalho.h//
-//Dupla: Jo Pereira e Fernanda Alice
 
 typedef struct info {
     char diretor[101]; //101 caracteres + 1 para fim de string
